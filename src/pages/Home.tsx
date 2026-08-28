@@ -3,7 +3,7 @@ import Features from '../components/Features';
 import Brands from '../components/Brands';
 import Layout from '../Layout';
 import About from '../components/About';
-import KidsSleep from '../components/KidsSleep';
+// import KidsSleep from '../components/KidsSleep';
 import Reveal from '../components/Reveal';
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
             <Reveal><Features /></Reveal>
             <Reveal><About /></Reveal>
             <Reveal><Brands /></Reveal>
-            <Reveal><KidsSleep /></Reveal>
+            {/* <Reveal><KidsSleep /></Reveal> */}
         </Layout>
     );
 };
